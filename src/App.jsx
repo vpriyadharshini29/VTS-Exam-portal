@@ -2,7 +2,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
-import Overview from './pages/overview';
 import Designing from './pages/Designing';
 import Profile from "./pages/Profile";
 import QuestionsPage1 from "./pages/QuestionsPage1";
@@ -13,6 +12,7 @@ import OnlinePage from "./pages/OnlinePage";
 import OfflinePage from "./pages/OfflinePage";
 import Result from './pages/Result';
 import Development from "./pages/Development";
+import Overview from './pages/Overview';
 
 
 
