@@ -7,7 +7,7 @@ import Profile from "./pages/Profile";
 import QuestionsPage1 from "./pages/QuestionsPage1";
 import QuestionsPage2 from "./pages/QuestionsPage2";
 import SubmissionSuccess from "./pages/SubmissionSuccess";
-import ExamPage from './pages/Exampage';
+import ExamPage from './pages/ExamPage';
 import OnlinePage from "./pages/OnlinePage";
 import OfflinePage from "./pages/OfflinePage";
 import Result from './pages/Result';
