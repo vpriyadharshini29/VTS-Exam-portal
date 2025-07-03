@@ -1,0 +1,90 @@
+.login-bg {
+  background-image: url("./images/Login Image.png"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Optional dark overlay for better readability */
+.login-bg::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  /* background: rgba(0, 0, 0, 0.3); */
+  z-index: 0;
+}
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+}
+
+.login-form h3 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #201F31;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #201F31;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #201F31;
+  background: transparent;
+  color: #201F31;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.input-group input::placeholder {
+  color:black;
+}
+
+button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #d8f275;
+  border: none;
+  font-weight: bold;
+  color: #201F31;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #cbe22f;
+}
+
+.error-msg {
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}

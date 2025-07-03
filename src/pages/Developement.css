@@ -1,0 +1,18 @@
+/* src/pages/Development.css */
+
+.upload-card {
+  border: 1px solid #d8f275;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.upload-area {
+  border: 2px dashed #d8f275;
+  border-radius: 6px;
+  background-color: #fefefe;
+}
+
+.upload-area p {
+  color: #201F31;
+  font-weight: 500;
+}
