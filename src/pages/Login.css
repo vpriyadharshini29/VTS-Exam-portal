@@ -1,5 +1,5 @@
 .login-bg {
-  background-image: url("./images/Login Image.png"); /* Replace with your image path */
+  background-image: url("/images/Login Image.png"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
